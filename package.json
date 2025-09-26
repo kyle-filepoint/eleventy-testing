@@ -1,0 +1,33 @@
+{
+  "name": "eleventy-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-handlebars": "^1.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/register": "^7.28.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "cross-spawn": "^7.0.6",
+    "del": "^8.0.1",
+    "esm": "^3.2.25",
+    "gulp": "^5.0.1",
+    "npm-run-all": "^4.1.5",
+    "open": "^10.2.0",
+    "openurl": "^1.1.1",
+    "rollup": "^4.52.2"
+  }
+}
